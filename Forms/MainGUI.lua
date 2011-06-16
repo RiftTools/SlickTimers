@@ -16,7 +16,7 @@ MainGUI.controlbox.new = Libra.UI.FrameManager:Create('Texture', MainGUI)
 MainGUI.controlbox.new:SetPoint('TOPRIGHT', MainGUI.controlbox.close, 'TOPLEFT', -1 , 0)
 MainGUI.controlbox.new:SetHeight(MainGUI.controlbox.close:GetHeight())
 MainGUI.controlbox.new:SetWidth(MainGUI.controlbox.close:GetHeight())
-MainGUI.controlbox.new:SetTexture('Libra', 'add.tga')
+MainGUI.controlbox.new:SetTexture('Libra', 'Media/add.tga')
 MainGUI.controlbox.new:SetLayer(3)
 
 MainGUI.controlbox.options = Libra.UI.FrameManager:Create('Texture', MainGUI)
